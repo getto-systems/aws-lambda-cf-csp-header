@@ -21,8 +21,8 @@ aws lambda function for cloud front to add csp headers
 ### Environments
 
 - `CSP_CONNECT_SRC` : connect-src for Content-Security-Policy
-- `CSP_FONT_SRC` : font-src for Content-Security-Policy
 - `CSP_IMG_SRC` : img-src for Content-Security-Policy
+- `CSP_FONT_SRC` : font-src for Content-Security-Policy
 - `CSP_SCRIPT_SRC` : script-src for Content-Security-Policy
 - `CSP_STYLE_SRC` : style-src for Content-Security-Policy
 
