@@ -28,9 +28,11 @@ exports.handler = async (event) => {
   const response = event.Records[0].cf.response;
 
   headers.forEach((h) => {
+    const key = h[0];
+    const value = h[1];
     response.headers[key.toLowerCase()] = [{
-      key: h[0],
-      value: h[1],
+      key: key,
+      value: value,
     }];
   });
 
